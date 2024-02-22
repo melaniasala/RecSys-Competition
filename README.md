@@ -1,6 +1,6 @@
 # Recommender System 2023 Challenge - Polimi
 
-This repository contains the work done for the [Recommender System 2023 Challenge](https://www.kaggle.com/competitions/recommender-system-2023-challenge-polimi) hosted by Kaggle and reserved for the students of the Recommender Systems course in Politecnico di Milano.
+Welcome to the [Recommender System 2023 Challenge](https://www.kaggle.com/competitions/recommender-system-2023-challenge-polimi) repository, dedicated to the project developed for the competition hosted by Kaggle and exclusively available to students of the Recommender Systems course at Politecnico di Milano. 
 
 ## Competition Overview
 
