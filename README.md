@@ -28,15 +28,15 @@ The system leverages XGBoost, using features such as user activity, popularity s
 
 ## Data Preprocessing
 
-The data preprocessing phase involved several steps to enhance the performance of the recommenders. Cold users and items were removed from the User-Item Interaction Matrix (URM) to reduce noise and improve the accuracy of the recommendations. A mapping was implemented to revert to the original user and item IDs for submission. The existing class was modified to automatically manage the presence of cold users and items and preprocessed URMs. The implementation can be found in 'Data Preprocessing.ipynb'.
+The data preprocessing phase involved several steps to enhance the performance of the recommenders. Cold users and items were removed from the User-Item Interaction Matrix (URM) to reduce noise and improve the accuracy of the recommendations. A mapping was implemented to revert to the original user and item IDs for submission. The existing class was modified to automatically manage the presence of cold users and items and preprocessed URMs. The implementation can be found in `Data Preprocessing.ipynb`.
 
 ## Wrappers
 
 A wrapper for `LinearCombinationEnsemble` was created from scratch to automate the training and inference for recommenders built of different ones. This wrapper exploits the ability of the ensemble to combine the strengths of multiple recommenders and mitigate their weaknesses, leading to more accurate and diverse recommendations.
 
-Analogously the 'UserSpecific' class was implemented, making the use of a combination of Recommenders specific to the user, based on its profile length, more intuitive.
+Analogously the `UserSpecific` class was implemented, making the use of a combination of Recommenders specific to the user, based on its profile length, more intuitive.
 
-See 'Recommenders' folder for a deeper insight.
+See `Recommenders` folder for a deeper insight.
 
 ## Results
 
