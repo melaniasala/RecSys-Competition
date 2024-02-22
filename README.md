@@ -12,7 +12,7 @@ The datasets include around 600k interactions, 13k users, 22k items (books). The
 
 The project aims to build a recommender system capable of suggesting items to users based on their past interactions. The best performance was achieved through a combination of different strategies:
 
-### Ensembles of Different Recommenders
+### Linear Combination Ensembles 
 
 The system uses an ensemble of different recommenders. These recommenders are assembled sequentially, adding one recommender at a time only if it improves the performance. The recommenders are added from the best performing to the least. For more details, please refer to the script `Sequential Ensamble.ipynb`.
 
